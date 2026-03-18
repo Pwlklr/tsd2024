@@ -9,7 +9,7 @@ public class GoldClient
     public GoldClient()
     {
         _client = new HttpClient();
-        _client.BaseAddress = new Uri("http://api.nbp.pl/api/");
+        _client.BaseAddress = new Uri("https://api.nbp.pl/api/");
         _client.DefaultRequestHeaders.Accept.Clear();
 
     }
